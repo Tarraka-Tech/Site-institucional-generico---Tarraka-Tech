@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+:root {
+    --font: "Inter", sans-serif;
+    --width-elements: clamp(320px, 100%, 1256px);
+    --font-title-1: clamp(2.25rem, 7vw, 3.25rem);
+    --font-title-2: clamp(1.875rem, 6vw, 2.5rem);
+    --font-title-3: clamp(1.5rem, 5vw, 2rem);
+    --font-text-1: clamp(1rem, 3vw, 1.25rem);
+    --font-text-2: clamp(0.9375rem, 3vw, 1.125rem);
+    --font-text-3: clamp(0.875rem, 3vw, 1rem);
+    --color-blue: #4C6EF5;
+    --color-gray-dark: #191C1F;
+    --color-text: #ADB5BD;
+    --color-titles-btn: #F8F9FA;
+    --color-modal: #212529;
+    --color-modal-close: #343A40;
+}
+
+body{
+    font-family:var(--font);
+    color: #F8F9FA;
+    font-size: var(--font-text-3);
+    width: 100%;
+    background-color: #212529;
+    margin: 0 auto;
+}
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-self: center;
+}
+footer{
+    width: 100%;
+}
+header{
+    width: 100%;
+}
